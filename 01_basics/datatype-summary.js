@@ -34,3 +34,28 @@ console.log(typeof bigNumber)//bigint
 console.log(typeof outsideTemp);//object
 console.log(typeof myFunction);//function
 
+
+//**********************************************************************
+
+
+// Stack(Primitive),Heap(Non-Primitive)
+
+let myYoutubename = "amitayoutube.com"
+let anothername = myYoutubename
+anothername="sim12youtube.come"
+console.log(anothername);
+console.log(myYoutubename)
+
+let userOne = {
+   email:"amitabiswal777@gmail.com",
+   upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email="amita7877@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
